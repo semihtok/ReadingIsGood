@@ -1,4 +1,7 @@
-﻿using ReadingIsGood.Domain.Product.Request;
+﻿using System.Collections.Generic;
+using ReadingIsGood.Domain.Product;
+using ReadingIsGood.Domain.Product.Request;
+using ReadingIsGood.Domain.Product.Response;
 
 namespace ReadingIsGood.Infrastructure.Services
 {
@@ -6,5 +9,6 @@ namespace ReadingIsGood.Infrastructure.Services
     {
         int Create(ProductRequest productRequest);
         bool Delete(ProductDeleteRequest productDeleteRequest);
+        List<Product> List();
     }
 }

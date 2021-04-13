@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using ReadingIsGood.Domain.Product;
 using ReadingIsGood.Domain.Product.Request;
+using ReadingIsGood.Domain.Product.Response;
 using ReadingIsGood.Infrastructure.Context;
 
 namespace ReadingIsGood.Infrastructure.Services.Implementations
@@ -54,6 +56,27 @@ namespace ReadingIsGood.Infrastructure.Services.Implementations
             {
                 Console.WriteLine(e);
                 return false;
+            }
+        }
+
+        public List<Product> List()
+        {
+            try
+            {
+                using (var db = new ReadingIsGoodDbContext())
+                {
+                    var products = db.Products.ToList();
+                    if (products.Any())
+                    {
+                        return products;
+                    }
+                    return new List<Product>();
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                return new List<Product>();
             }
         }
     }
