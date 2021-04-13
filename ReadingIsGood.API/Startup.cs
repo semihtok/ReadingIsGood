@@ -123,7 +123,7 @@ namespace ReadingIsGood.API
                 {
                     var context = serviceScope.ServiceProvider.GetRequiredService<ReadingIsGoodDbContext>();
                     context.Database.Migrate();
-                    // new SeedData().Seed();
+                    new SeedData().Seed();
                 }
             }
 
