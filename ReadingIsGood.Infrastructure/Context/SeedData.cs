@@ -14,6 +14,7 @@ namespace ReadingIsGood.Infrastructure.Context
                 {
                     Name = "Xbox Series X",
                     Description = "Powerful gaming console",
+                    Quantity = 10,
                     Price = 7000,
                     CreatedAt = DateTime.Now
                 };
@@ -21,6 +22,7 @@ namespace ReadingIsGood.Infrastructure.Context
                 var productPs5 = new Product
                 {
                     Name = "Playstation 5",
+                    Quantity = 10,
                     Description = "Classic gaming console",
                     Price = 8000,
                     CreatedAt = DateTime.Now
