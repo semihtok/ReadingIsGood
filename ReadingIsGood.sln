@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadingIsGood.API", "ReadingIsGood.API\ReadingIsGood.API.csproj", "{9894410C-3335-4500-8DE3-70D9EE50AC5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Api", "1. Api", "{35D48C1B-543A-4443-9890-2A5C86181825}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Domain", "2. Domain", "{213282B4-56A6-408B-AE41-AE1F4353CD8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadingIsGood.Domain", "ReadingIsGood.Domain\ReadingIsGood.Domain.csproj", "{286A2379-63E5-47E1-8BED-F8FF7E08EF44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Infrastructure", "3. Infrastructure", "{5A5CAF46-7B24-4CC6-8228-2FDABCDF80FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadingIsGood.Infrastructure", "ReadingIsGood.Infrastructure\ReadingIsGood.Infrastructure.csproj", "{A48361E7-DA56-4EC3-9F05-9060EAF4485B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Tests", "4. Tests", "{20AE3C32-6281-48FF-AF3A-5D02DD732E6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadingIsGood.Tests", "ReadingIsGood.Tests\ReadingIsGood.Tests.csproj", "{5B2F3602-F0FB-4E73-AE1B-8AAF44276054}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9894410C-3335-4500-8DE3-70D9EE50AC5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9894410C-3335-4500-8DE3-70D9EE50AC5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9894410C-3335-4500-8DE3-70D9EE50AC5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9894410C-3335-4500-8DE3-70D9EE50AC5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{286A2379-63E5-47E1-8BED-F8FF7E08EF44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{286A2379-63E5-47E1-8BED-F8FF7E08EF44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{286A2379-63E5-47E1-8BED-F8FF7E08EF44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{286A2379-63E5-47E1-8BED-F8FF7E08EF44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A48361E7-DA56-4EC3-9F05-9060EAF4485B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A48361E7-DA56-4EC3-9F05-9060EAF4485B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A48361E7-DA56-4EC3-9F05-9060EAF4485B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A48361E7-DA56-4EC3-9F05-9060EAF4485B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B2F3602-F0FB-4E73-AE1B-8AAF44276054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B2F3602-F0FB-4E73-AE1B-8AAF44276054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B2F3602-F0FB-4E73-AE1B-8AAF44276054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B2F3602-F0FB-4E73-AE1B-8AAF44276054}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9894410C-3335-4500-8DE3-70D9EE50AC5D} = {35D48C1B-543A-4443-9890-2A5C86181825}
+		{286A2379-63E5-47E1-8BED-F8FF7E08EF44} = {213282B4-56A6-408B-AE41-AE1F4353CD8F}
+		{A48361E7-DA56-4EC3-9F05-9060EAF4485B} = {5A5CAF46-7B24-4CC6-8228-2FDABCDF80FD}
+		{5B2F3602-F0FB-4E73-AE1B-8AAF44276054} = {20AE3C32-6281-48FF-AF3A-5D02DD732E6C}
+	EndGlobalSection
+EndGlobal
