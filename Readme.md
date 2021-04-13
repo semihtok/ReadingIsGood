@@ -5,7 +5,7 @@ ReadingIsGood is a modern sample application with [Domain-Driven Design](https:/
 ## Features
 
 - [Entity Framework Core](https://docs.microsoft.com/ef/core/) (Code First)
-- [PostgreSQL](https://www.postgresql.org/) (EF Core -> [Npgsql](Useshttps://www.npgsql.org/))
+- [PostgreSQL](https://www.postgresql.org/) (EF Core -> [Npgsql](https://www.npgsql.org/))
 - Native .NET Identity Database Schema Integration
 - JWT authentication with Microsoft AspNetCore Identity package
 - Swagger + OpenAPI (V3.0.3) + JWT authentication support
