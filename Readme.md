@@ -1,6 +1,6 @@
 # ReadingIsGood - Modern .NET 5 Web API Example
 
-ReadingIsGood is a modern sample application with [Domain-Driven Design](https://docs.microsoft.com/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice) modeling.
+ReadingIsGood is a modern Web API example with [Domain-Driven Design](https://docs.microsoft.com/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice) modeling.
 
 ## Features
 
